@@ -1,7 +1,7 @@
 # typescripttypes-1
 Typescript types
 
-`
+```js
 // Type Predicates
 
 type FinalInvoice = {
@@ -157,5 +157,4 @@ const backlog = {
 type Release = Unarray<typeof backlog["releases"]>;
 
 type Info = Unarray<typeof backlog["info"]>;
-
-`
+```
